@@ -18,7 +18,7 @@ console.log(message.style.color); // blank❗️
 console.log(message.style.backgroundColor); // rgb(55, 56, 61)
 
 // 👉 we can get the styles if we really want to, use the 🌟getComputedStyle🌟 function!
-// computed: it's the real style as it appears here on the page
+// ✨computed: it's the real style as it appears here on the page
 // even if we don't declare it in our CSS.
 // console.log(getComputedStyle(message)); // all of the properties with all of the values
 // => simply take a certain property
@@ -70,6 +70,8 @@ console.log(logo.getAttribute('designer')); // Jonas
 logo.alt = 'Beautiful minimalist logo';
 // 👉 Attribute 추가하기 (company = "Bankist")
 logo.setAttribute('company', 'Bankist');
+// 👉 Attribute 삭제하기
+// logo.removeAttribute('company');
 
 // The same is actually true for the href attribute on links.
 const link1 = document.querySelector('.twitter-link');
